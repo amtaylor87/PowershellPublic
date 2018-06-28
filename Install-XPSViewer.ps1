@@ -52,9 +52,3 @@ function Add-XPSViewer {
 
 
 
-<#
-$Computers = Get-Content -Path "C:\users\schnedler_e\desktop\xps\computers.txt"
-foreach ($computer in $computers){
-Invoke-Command -ComputerName $computer -ScriptBlock {DISM /Online /Add-Capability /CapabilityName:XPS.Viewer~~~~0.0.1.0} 
-}
-#>
