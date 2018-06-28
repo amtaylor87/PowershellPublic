@@ -102,6 +102,7 @@ function Add-XPSViewer
                     $Online.remove($O)
                 }
 
+
             }
         }
         #Add XPS Viewer to the eligible machines
